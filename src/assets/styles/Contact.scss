@@ -1,0 +1,57 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.sub-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // padding-top: 50px;
+}
+.circle {
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  padding: 30px;
+  background-color: indianred;
+  transition: transform .4s;
+  z-index: 0;
+  transform-origin: top;
+}
+.quote {
+  opacity: 0;
+  transition: opacity .4s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 2px;
+  top: 70%;
+  font-style: italic;
+  display: flex;
+  flex-flow: column;
+}
+.contact_wrapper:hover .circle {
+  transform: scale(4.0);
+}
+.contact_wrapper:hover .quote {
+  opacity: 1;
+}
+.mail-subtext{
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+
+
+// .circle:hover {
+//   transform: scale(4.2);
+// }
