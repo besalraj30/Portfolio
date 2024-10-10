@@ -95,12 +95,11 @@ function Contact() {
           <h4 className="mail-subtext">besal8953@gmail.com</h4>
         </div>
         <div
-          className=""
+          className="contact-bar"
           style={{
             display: "flex",
             justifyContent: "center",
             position: "relative",
-            top: "140px",
             marginLeft: "40px",
           }}
         >

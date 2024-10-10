@@ -46,4 +46,9 @@
             padding-bottom: 5%;
         }
     }
+    @media (max-width : 567px) {
+        .projects-container {
+            padding-left: 45px;
+        }
+    }
 }

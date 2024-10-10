@@ -35,4 +35,9 @@
     .vertical-timeline-element .vertical-timeline-element-date {
         color: rgb(39, 40, 34);
     }
+    @media(max-width: 567px) {
+        .items-container {
+            padding-left: 45px;
+        }
+    }
 }

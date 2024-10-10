@@ -1,7 +1,6 @@
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
-  margin-right: 5px;
 }
 
 .sub-title{
@@ -49,6 +48,14 @@
   position: relative;
   top: 30px;
   z-index: 1;
+}
+.contact-bar {
+  top: 140px
+}
+@media (max-width:768px) {
+  .contact-bar {
+    top: 20px;
+  }
 }
 
 
