@@ -35,12 +35,6 @@ code {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .sidebar-icons {
-    right: 95%; /* Apply right 95% for mobile */
-  }
-}
-
 .sidebar-icons {
   position: fixed;
   bottom: 20px;
